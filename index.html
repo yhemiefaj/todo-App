@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/fd9d556b33.js" crossorigin="anonymous"></script>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <p id="date"></p>
+    <div class="weather">
+      <img id="weatherImg" src="" alt="Cloudy">
+      <p id="temp"></p>
+    </div>
+    <p id="description"></p> <br>
+    <p id="loc"></p>
+  </div>
+
+  <div class="quotes">
+    <h3 id="quoteText"></h3>
+    <p id="quoteAuthor"></p>
+  </div>
+
+  <div class="main">
+    <div class="todoList">
+      <ul class="todo-items"></ul>
+      <a class="clearAll" id="clearAll">Clear All</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1 id="localTime"></h1>
+    <h2 id="greeting"></h2>
+    <label for="">What are you up to today?</label>
+    <form class="todo-form">
+      <input class="todo-input" type="text" placeholder="add new task ..." autocomplete="off">
+      <button type="submit" class="add-button"><i class="fas fa-plus-square"></i></button>
+    </form>
+  </div>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
