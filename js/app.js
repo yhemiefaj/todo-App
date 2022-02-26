@@ -59,9 +59,9 @@ startTime = () => {
 
   setTimeout(() => {
     startTime();
-  }, 30000);
+  }, 500);
 
-  localTime = h + ":" + m;
+  localTime = h + ":" + m + ":" + s;
 
   if (h < 12) {
     greeting = "Good morning";
