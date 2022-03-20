@@ -61,7 +61,7 @@ startTime = () => {
     startTime();
   }, 30000);
 
-  localTime = h + ":" + m;
+  localTime = h + ":" + m + ":" + s;
 
   if (h < 12) {
     greeting = "Good morning";
