@@ -1,9 +1,9 @@
 //============= Random Background Image (picsum-photo)
 
-const id = Math.floor(Math.random() * 1000 + 1);
+//const id = Math.floor(Math.random() * 1000 + 1);
 downloadUrl = `https://picsum.photos/id/${id}/1500/900`;
 
-document.body.style.backgroundImage = `url(${downloadUrl})`;
+document.body.style.backgroundImage = `url(${downloadUrl})`;//
 
 //============= Date, time, weather info and greeting ================//
 
