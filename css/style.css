@@ -13,6 +13,9 @@ body {
   color: white;
   background-color: grey;
   text-shadow: black 0 0 5px;
+  
+  background-size: cover;
+  
 }
 
 p {
