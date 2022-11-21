@@ -14,7 +14,8 @@ body {
   color: white;
   background-color: grey;
   text-shadow: black 0 0 5px;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
 
 p {
   display: inline;
