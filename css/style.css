@@ -15,6 +15,7 @@ body {
   text-shadow: black 0 0 5px;
   
   background-size: cover;
+  background-repeat: no-repeat;
   
 }
 
